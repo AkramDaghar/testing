@@ -1,5 +1,6 @@
 git init
 git add .
+stages all changes made in the current directory and its subdirectories so they will be included in the next commit
 git commit -m "title"
 git log
 git switch master
@@ -7,3 +8,13 @@ git branch
 git checkout 5cd682f44070cfdc6fd4d546d935d43c231d09c1
 
 * means where you're currently at
+
+git remote add origin https://github.com/AkramDaghar/versus.git
+git push -u origin master
+git push origin new-branch
+
+. add
+. commit
+. push commit
+. pull request
+. merge pull request
