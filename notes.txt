@@ -1,0 +1,64 @@
+> npx create-expo-app@latest
+> npm audit fix
+> npx expo start
+fixed issues with running expo command
+
+removed the content of index.jsx 
+replaced it with "rnfe"
+
+app.json --> splash : {}
+splash screen
+
+View
+ImageBackground
+Pressable
+Text
+Link
+Link --> button by using asChild
+StatusBar
+
+👉 justifyContent = main axis
+👉 alignItems = cross axis
+So everything depends on:
+flexDirection: '...' 
+
+file based rounting ?
+
+control + / --> comment selection
+
+Stack
+Stack.Screen
+ThemeProvider
+
+Slot
+Imagine you have a picture frame.
+The frame is your layout.
+The picture changes depending on which page you're on. 
+<Slot /> is the empty frame where the current page is inserted.
+
+was using tabs now switched to using stacks 
+
+
+Alt + Z, tjiblek el lines li fetou l width taa l ecan
+
+
+Container
+FlatList
+
+> npm run reset-project
+
+
+
+in css
+border-radius: 20px;
+in react native
+const styles = StyleSheet.create({
+    box : {
+        borderRadius: 10;
+    }
+})
+React Native treats numeric values as density-independent pixels (dp on Android, points on iOS).
+
+> rm -rf my-folder
+
+@/* = ./* check tscongig.json
